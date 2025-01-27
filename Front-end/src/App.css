@@ -1,42 +1,27 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Make sure html and body take full height */
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(100, 210, 244); /* Full page background color */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Ensure the navbar spans full width and has no extra margin */
+nav {
+  background-color: rgb(100, 210, 244); /* Match the background color */
+  padding: 0; /* Remove any padding */
+  margin: 0; /* Remove any margin */
+  width: 100%; /* Ensure it spans the full width of the page */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* If any additional content or divs need to be fully stretched */
+div {
+  margin: 0;
+  padding: 0;
 }
