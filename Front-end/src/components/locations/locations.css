@@ -1,0 +1,25 @@
+.locations-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.locations-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.locations-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.locations-container li {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
