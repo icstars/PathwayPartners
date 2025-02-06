@@ -6,10 +6,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-const Header =()=>{
+function Header (){
     return(
 <div>
-
     <Navbar bg= "light" expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">Thresholds</Navbar.Brand>
@@ -33,6 +32,8 @@ const Header =()=>{
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+    
     </div>
 
     )

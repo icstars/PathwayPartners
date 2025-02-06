@@ -1,0 +1,96 @@
+/* General Styles */
+.settings-container {
+    max-width: 1500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #333;
+    color: white;
+  }
+  
+  .dark-mode .settings-container {
+    background-color: #444;
+    color: white;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Title */
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Setting Item Styles */
+  .setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark-mode .setting-item {
+    background-color: #555;
+  }
+  
+  /* Labels */
+  .setting-item label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  /* Inputs */
+  .setting-item input[type="checkbox"],
+  .setting-item select {
+    cursor: pointer;
+  }
+  
+  /* Checkbox Styling */
+  .setting-item input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #007bff;
+  }
+  
+  /* Select Dropdown */
+  .setting-item select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .dark-mode select {
+    background-color: #666;
+    color: white;
+    border: 1px solid #888;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .settings-container {
+      width: 90%;
+    }
+  
+    .setting-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .setting-item label {
+      margin-bottom: 5px;
+    }
+  }
+  

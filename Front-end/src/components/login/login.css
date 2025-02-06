@@ -1,1 +1,52 @@
+/* login.css */
+
+.background {
+    background: linear-gradient(45deg, #EBEDE8, #7B51A7); /* Gradient background */
+     /* Full viewport height */
+    ;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 100%;
+    max-width: 400px; /* Limit the width to 400px */
+    text-align: center;
+}
+
+.login-box h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.login-box button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none; /* Remove default button border */
+}
 

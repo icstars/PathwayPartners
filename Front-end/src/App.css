@@ -1,3 +1,6 @@
+
+
+
 body, html, #root, .background {
   min-height: 100vh;
 }
@@ -7,4 +10,6 @@ body, html, #root, .background {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
+  opacity: 100%;
+ background-attachment: fixed;
 }

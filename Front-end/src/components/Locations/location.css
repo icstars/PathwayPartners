@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    /* Add margin-top to create space from the navbar */
+    margin-top: 60px; /* Adjust this value based on your navbar height */
+}
+
+/* Title */
+h1 {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Locations List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #007bff;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Location Name */
+li strong {
+    font-size: 18px;
+    color: #007bff;
+}
+
+/* Address */
+li span {
+    font-size: 16px;
+    color: #666;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    div {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    li {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
